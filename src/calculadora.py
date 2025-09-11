@@ -56,4 +56,4 @@ class Calculadora :
     
     
 calc = Calculadora()
-print(calc.dividir(20,5))
+print(calc.dividir())
