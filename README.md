@@ -1,5 +1,8 @@
 # Ativ5-Calculadora
 
+Alan Daiki Suga 22.125.094-7
+
+
 # Instalar dependencias
 pip install -r requirements.txt
 # Executar todos os testes

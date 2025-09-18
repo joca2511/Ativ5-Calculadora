@@ -1,4 +1,4 @@
-from src.calculadora import Calculadora
+from ..src.calculadora import Calculadora
 
 # Entrada e saída
 def test_entrada_saida_soma(self):
@@ -103,12 +103,12 @@ def test_foraDoIntervalo(self):
 # Fluxos de Controle
 def test_fluxos_divisao ( self ) :
     
-    calc = Calculadora ()
+    calc = Calculadora()
     # Caminho normal
     resultado = calc.dividir (10 , 2)
-    self.assertEqual ( resultado , 5)
+    self.assertEqual( resultado , 5)
     # Caminho de erro
-    with self.assertRaises ( ValueError ) :
+    with self.assertRaises( ValueError ) :
         calc.dividir (10 , 0)
         
 def test_fluxos_divisao2 ( self ) :
